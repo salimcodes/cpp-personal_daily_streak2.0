@@ -1,3 +1,5 @@
+//Code written by Salim Oyinlola
+
 #include <iostream>
 using namespace std;
 
