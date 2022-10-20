@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+struct Player
+{
+	char name[40];
+	int age;
+};
+
+void GetPlayer(Player &);
+int main()
+{
+	Player FAKEGOAT;
+	GetPlayer(FAKEGOAT);
+	system("Pause");
+	return 0;
+}
+
+void GetPlayer(Player &bron)
+{
+	strcpy(bron.name, "LeBron James");
+	bron.age = 37;
+}
